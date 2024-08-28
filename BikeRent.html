@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BikeRent.css">
+    <title>Rent</title>
+   
+</head>
+<body>
+    <header >
+        <a href="home .html"><h2>Bike<span>Rental</span></h2></a>
+        <div class="nav">
+            <a class="home"href="home .html">Home</a>
+            <a class="Rent"href="BikeRent.html">Rent Bikes</a>
+            <a class="contact"href="contact.html">Contact</a>
+            <a class="rivew"href="Rivew.html">Rivews</a>
+        </div>
+        <div class="login">
+            <a href="">login</a>
+        </div>
+    </header>
+    <main>
+        <div class="top">
+           <a href=""><div class="nav">A</div></a> 
+            <a href=""><div class="nav">B</div></a>
+            <a href=""><div class="nav">c</div></a>
+        </div>
+        <div class="heading">
+            <h1>Bikes</h1>
+        </div>
+
+        <div class="contener1">
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/APACHE.png" alt="" id="apachi">
+                <h1>TVS Apache</h1>
+                <p>RTR 160</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button> </div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 160cc</p>
+                    <p>Max Speed: 120 km/h</p>
+                    <p>Price: 900₹ / day</p>
+                </div>
+            </div>
+
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Bajaj Pulsar 200NS.png" alt="" id="apachi">
+                <h1>Bajaj Pulsar </h1>
+                <p>200NS</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 200cc</p>
+                    <p>Max Speed: 160 km/h</p>
+                    <p>Price: 1200₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/BAJAJ.png" alt="" id="apachi">
+                <h1>BAJAJ Pulsar</h1>
+                <p>Pulsar 160</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 160cc</p>
+                    <p>Max Speed: 120 km/h</p>
+                    <p>Price: 900₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/CBR.png" alt="" id="apachi">
+                <h1>Honda CBR</h1>
+                <p>CBR 200</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 200cc</p>
+                    <p>Max Speed: 180 km/h</p>
+                    <p>Price: 1200₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Classic 500.png" alt="" id="apachi">
+                <h1>Royal Enfield</h1>
+                <p>Classic 500</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 500cc</p>
+                    <p>Max Speed: 460 km/h</p>
+                    <p>Price: 1800₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/duke.png" alt="" id="apachi">
+                <h1>KTM Duke</h1>
+                <p>Duke 200</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 200cc</p>
+                    <p>Max Speed: 180 km/h</p>
+                    <p>Price: 1200₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Enfield Classic 350.png" alt="" id="apachi">
+                <h1>Royal Enfield</h1>
+                <p>Classic 350</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 350cc</p>
+                    <p>Max Speed: 320 km/h</p>
+                    <p>Price: 1500₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Enfield Classic.png" alt="" id="apachi">
+                <h1>Royal Enfield</h1>
+                <p>Enfield 350</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 350cc</p>
+                    <p>Max Speed: 320 km/h</p>
+                    <p>Price: 1400₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Glamour.png" alt="" id="apachi">
+                <h1>Honda Glamour</h1>
+                <p>Glamour</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 120cc</p>
+                    <p>Max Speed: 100 km/h</p>
+                    <p>Price: 700₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Harley Davidson.png" alt="" id="apachi">
+                <h1>Harley Devidson</h1>
+                <p>Fat Boy</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 1800cc</p>
+                    <p>Max Speed: 180 km/h</p>
+                    <p>Price: 2500₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Hero Honda Passion.png" alt="" id="apachi">
+                <h1>Hero Honda</h1>
+                <p>Passion</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 120cc</p>
+                    <p>Max Speed: 80 km/h</p>
+                    <p>Price: 600₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Hero Honda Splendor.png" alt="" id="apachi">
+                <h1>Hero Honda</h1>
+                <p>Splendor</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 120cc</p>
+                    <p>Max Speed: 80 km/h</p>
+                    <p>Price: 600₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Hero Karizma ZMR.png" alt="" id="apachi">
+                <h1>Hero Karzima</h1>
+                <p>ZMR</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 200cc</p>
+                    <p>Max Speed: 170 km/h</p>
+                    <p>Price: 1000₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Honda CB150R.png" alt="" id="apachi">
+                <h1>Honda</h1>
+                <p>CB150R</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 150cc</p>
+                    <p>Max Speed: 120 km/h</p>
+                    <p>Price: 900₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Honda Livo Scooter TVS.png" alt="" id="apachi">
+                <h1>TVS</h1>
+                <p>Victor 120</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 120cc</p>
+                    <p>Max Speed: 80 km/h</p>
+                    <p>Price: 600₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Hero Xtreme.png" alt="" id="apachi">
+                <h1>Hero</h1>
+                <p>Xtreme 150</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 150cc</p>
+                    <p>Max Speed: 120 km/h</p>
+                    <p>Price: 900₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/KTM.png" alt="" id="apachi">
+                <h1>KTM</h1>
+                <p>KTM 390</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 390cc</p>
+                    <p>Max Speed: 350 km/h</p>
+                    <p>Price: 1500₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/MOTO Z.png" alt="" id="apachi">
+                <h1>Kawasaki</h1>
+                <p>MOTO Z650</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 650cc</p>
+                    <p>Max Speed: 600 km/h</p>
+                    <p>Price: 1800₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/NINJA.png" alt="" id="apachi">
+                <h1>Kawasaki</h1>
+                <p>NINJA</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 400cc</p>
+                    <p>Max Speed: 360 km/h</p>
+                    <p>Price: 1000₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/PALSAR T20.png" alt="" id="apachi">
+                <h1>Bajaj Pulsar</h1>
+                <p>Pulsar 220</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 220cc</p>
+                    <p>Max Speed: 180 km/h</p>
+                    <p>Price: 900₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/R15.png" alt="" id="apachi">
+                <h1>Yamaha</h1>
+                <p>R15</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 200cc</p>
+                    <p>Max Speed: 180 km/h</p>
+                    <p>Price: 1000₹ / day</p>
+                </div>
+            </div>
+            <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/Royal Enfield Bullet.png" alt="" id="apachi">
+                <h1>Royal Enfield</h1>
+                <p>Bullet 300</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 300cc</p>
+                    <p>Max Speed: 280 km/h</p>
+                    <p>Price: 1100₹ / day</p>
+                </div>
+            </div>
+            <!-- <div id="bike" class="bike">
+                <img src="Rent_bikes/super bike/APACHE.png" alt="" id="apachi">
+                <h1>TVS Apache</h1>
+                <p>RTR 160</p>
+                <div class="con"><button>Book now</button><button onclick="toggleDetails(this)">View Details</button></div>
+                <div id="bikeDetails" class="details" style="display: none;">
+                    <p>Engine: 160cc</p>
+                    <p>Max Speed: 120 km/h</p>
+                    <p>Price: 900₹ / day</p>
+                </div>
+            </div> -->
+
+        </div>
+
+
+        
+    </main>
+    <script src="Bikerent.js"></script>
+</body>
+</html>

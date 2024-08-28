@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+:root{
+--col : #ff5e00;
+--body:#dad2d255;
+}
+body{
+    width:100%;
+    height: 100%;
+}
+
+/* header */
+header span{
+    color:var(--col);
+
+}
+
+header h2{
+    font-weight: 600;
+    font-size: 2rem;
+}
+header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    height:fit-content;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+header .nav{
+    width:40vw;
+    display: flex;
+    justify-content: center;
+    a{
+        padding:0.5rem;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 300;
+        border: none;
+    }
+    
+}
+
+header .nav :hover{
+    border-bottom: 3.5px solid var(--col);
+    color: #ff5e00ef;
+    font-weight: 700;
+}
+
+header .login{
+    display: flex;
+    width:10rem;
+    justify-content: center;
+    
+}
+
+header .login a{
+text-align: center;
+ border: 2px solid  #140a0a ;
+ padding:0.5rem;
+ font-size: 20px;
+    border-radius: 1rem;
+    width:7rem;
+    
+    
+    color: rgb(0, 0, 0);
+}
+header .login a:hover{
+    color: #fc5f05f5;
+    font-weight: 700;
+    border: 3px solid var(--col) ;
+
+
+}
+header .nav .home{
+    border-bottom: 3.5px solid var(--col);
+    color: #ff5e00ef;
+    font-weight: 700;
+}
+/* main */
+main .body img{
+ width: 100%;
+ background: transparent;
+}
+main{
+    display: block;
+}
+
+main .heading{
+    padding: 0.3rem;
+    margin-top: 7px;
+    text-align: center;
+    background-color: #dad2d255;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+main .heading span{
+    color: var(--col);
+}
+
+
+main .features{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height:100px;
+}
+main .features #f{
+    padding: 2rem;
+    width: 280px;
+    background-color: #000000;
+    height: 100%;
+    border-radius: 12px;
+    
+
+}
+
+ .fST{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    
+ }
+
+.fST img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.con h2{
+    display: block;
+    margin-bottom:5px ;
+}
+.con{
+    justify-content: center;
+    p{
+        font-size: 15px;
+    }
+}
+
+ .features :hover{
+    background-color: var(--col);
+}
+
+#f.fST:hover{
+    background-color: var(--col);
+    color:#000000;
+}
+
+#f{
+    box-shadow: 6px 6px 2px var(--body)
+}
